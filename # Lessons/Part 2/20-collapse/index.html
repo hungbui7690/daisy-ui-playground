@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <title>Daisy UI</title>
+  </head>
+  <body>
+    <div class="container p-8">
+      <div tabindex="0" class="collapse bg-base-200">
+        <div class="collapse-title text-xl font-medium">
+          Focus me to see content
+        </div>
+        <div class="collapse-content">
+          <p>tabindex="0" attribute is necessary to make the div focusable</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container p-8">
+      <div class="collapse bg-base-200">
+        <input type="checkbox" />
+        <div class="collapse-title text-xl font-medium">
+          Click me to show/hide content
+        </div>
+        <div class="collapse-content">
+          <p>hello</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container p-8">
+      <div
+        tabindex="0"
+        class="bg-primary text-primary-content focus:bg-secondary focus:text-secondary-content collapse"
+      >
+        <div class="collapse-title">Focus me to see content</div>
+        <div class="collapse-content">
+          <p>tabindex="0" attribute is necessary to make the div focusable</p>
+        </div>
+      </div>
+    </div>
+
+    <div class="container p-8">
+      <div class="bg-base-200 collapse">
+        <input type="checkbox" class="peer" />
+        <div
+          class="collapse-title bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
+        >
+          Click me to show/hide content
+        </div>
+        <div
+          class="collapse-content bg-primary text-primary-content peer-checked:bg-secondary peer-checked:text-secondary-content"
+        >
+          <p>hello</p>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

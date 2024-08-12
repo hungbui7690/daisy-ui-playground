@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <title>Daisy UI</title>
+  </head>
+  <body>
+    <div class="container p-8">
+      <p>Method 1: Dropdown menu using "details" tag</p>
+      <details class="dropdown">
+        <summary class="btn m-1">open or close</summary>
+        <ul
+          class="menu dropdown-content bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
+        >
+          <li><a>Item 1</a></li>
+          <li><a>Item 2</a></li>
+        </ul>
+      </details>
+      <br />
+      <br />
+
+      <p>Method 2: Using CSS focus</p>
+      <div class="dropdown">
+        <div tabindex="0" role="button" class="btn m-1">Click</div>
+        <ul
+          tabindex="0"
+          class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
+        >
+          <li><a>Item 1</a></li>
+          <li><a>Item 2</a></li>
+        </ul>
+      </div>
+      <br /><br />
+
+      <p>Position: top/bot/end/.../left/right...</p>
+      <div class="dropdown dropdown-right">
+        <div tabindex="0" role="button" class="btn m-1">Click</div>
+        <ul
+          tabindex="0"
+          class="dropdown-content menu bg-base-100 rounded-box z-[1] w-52 p-2 shadow"
+        >
+          <li><a>Item 1</a></li>
+          <li><a>Item 2</a></li>
+        </ul>
+      </div>
+      <br /><br />
+
+      <!-- And many more: # force open # dropdown in navbar # helper dropdown # card as dropdown  -->
+    </div>
+  </body>
+</html>

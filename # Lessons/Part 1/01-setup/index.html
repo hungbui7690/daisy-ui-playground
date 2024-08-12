@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <title>Daisy UI</title>
+  </head>
+  <body>
+    <!-- 1. So instead of making a button using only utility classes:  -->
+    <button
+      class="inline-block cursor-pointer rounded-md bg-gray-800 px-4 py-3 text-center text-sm font-semibold uppercase text-white transition duration-200 ease-in-out hover:bg-gray-900"
+    >
+      Button
+    </button>
+
+    <!-- 2. You can just use a component class like this: -->
+    <button class="btn">Button</button>
+
+    <!-- 3. Then you can modify the component with daisyUI additional utility classes: -->
+    <button class="btn btn-primary">Button</button>
+
+    <!-- 4. Or you can modify the component with Tailwind CSS utility classes: -->
+    <button class="btn w-64 rounded-full">Button</button>
+  </body>
+</html>

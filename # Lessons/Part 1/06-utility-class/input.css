@@ -1,0 +1,21 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.img-container {
+  background: url('./img.jpg');
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.glass {
+  width: 200px;
+  height: 300px;
+  border-radius: 10px;
+}

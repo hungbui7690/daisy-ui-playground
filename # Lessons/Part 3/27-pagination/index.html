@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="output.css" />
+    <title>Daisy UI</title>
+    <style>
+      .container {
+        padding: 2rem;
+      }
+    </style>
+  </head>
+  <body>
+    <div class="container">
+      <div class="join">
+        <button class="join-item btn">1</button>
+        <button class="join-item btn btn-active">2</button>
+        <button class="join-item btn">3</button>
+        <button class="join-item btn">4</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="join">
+        <button class="join-item btn">1</button>
+        <button class="join-item btn">2</button>
+        <button class="join-item btn btn-disabled">...</button>
+        <button class="join-item btn">99</button>
+        <button class="join-item btn">100</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="join grid grid-cols-2">
+        <button class="join-item btn btn-outline">Previous page</button>
+        <button class="join-item btn btn-outline">Next</button>
+      </div>
+    </div>
+
+    <div class="container">
+      <div class="join">
+        <input
+          class="join-item btn btn-square"
+          type="radio"
+          name="options"
+          aria-label="1"
+          checked="checked"
+        />
+        <input
+          class="join-item btn btn-square"
+          type="radio"
+          name="options"
+          aria-label="2"
+        />
+        <input
+          class="join-item btn btn-square"
+          type="radio"
+          name="options"
+          aria-label="3"
+        />
+        <input
+          class="join-item btn btn-square"
+          type="radio"
+          name="options"
+          aria-label="4"
+        />
+      </div>
+    </div>
+  </body>
+</html>

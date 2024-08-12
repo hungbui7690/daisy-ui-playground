@@ -1,0 +1,6 @@
+/*
+  Config 
+  - tailwind.config.js
+
+
+*/
